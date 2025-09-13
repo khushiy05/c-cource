@@ -7,7 +7,8 @@ Income Slab Tax
 2.5 – 5.0L 5%
 5.0L - 10.0L 20%
 Above 10.0L 30%*/
-    int income, tax = 0;
+    int income;
+    float tax = 0;
     printf("Enter income: \n");
     scanf("%d", &income);
     if(income<250000){
